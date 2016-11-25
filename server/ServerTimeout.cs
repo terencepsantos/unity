@@ -36,4 +36,5 @@ public class ServerTimeout : MonoBehaviour
     {
         return StartCoroutine(WaitForDoneProcess(condition, timeout));
     }
+	
 }
